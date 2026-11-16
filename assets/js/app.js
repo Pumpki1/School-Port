@@ -276,22 +276,44 @@
     }));
   }
 
-  // ---------- Achievements ----------
+   // ---------- Achievements ----------
   function renderAchievements() {
-    const cards = S.achievements.map((a) => {
+    const TABS = [
+      ['certification', 'Certifications'],
+      ['award', 'Awards'],
+      ['seminar', 'Seminars and Fieldtrips']
+    ];
+    const catOf = (a) => a.category || 'certification';
+
+    const cardOf = (a) => {
       const type = (a.type || 'img').toLowerCase();
       const off = !a.file || isPH(a.file);
       return '<article>' + frameHTML(a, type, off) +
         '<div class="ach-issuer">' + t(a.issuer) + '</div>' +
         '<h3 class="ach-title">' + t(a.title) + '</h3>' +
         '<div class="ach-date">' + t(a.date) + '</div></article>';
-    }).join('');
+    };
+
+    const buttons = TABS.map((tb, i) =>
+      '<button class="tab-btn' + (i === 0 ? ' on' : '') + '" type="button" data-tab="' + tb[0] + '">' + tb[1] +
+      '<span class="tab-count">' + S.achievements.filter((a) => catOf(a) === tb[0]).length + '</span></button>').join('');
+
+    const panels = TABS.map((tb, i) =>
+      '<div class="tab-panel' + (i === 0 ? ' on' : '') + '" data-panel="' + tb[0] + '"><div class="ach-grid">' +
+      S.achievements.filter((a) => catOf(a) === tb[0]).map(cardOf).join('') + '</div></div>').join('');
 
     app.innerHTML =
       '<header class="page-head rise"><div class="kicker">Recognition</div>' +
         '<h1 class="page-title">Achievements</h1>' +
         '<p class="page-sub">Competitions, certificates, and recognitions earned during my studies.</p></header>' +
-      '<div class="sheet rise rise-1"><div class="ach-grid">' + cards + '</div></div>';
+      '<div class="sheet rise rise-1"><div class="tabs">' + buttons + '</div>' + panels + '</div>';
+
+    const btns = document.querySelectorAll('.tab-btn');
+    const pans = document.querySelectorAll('.tab-panel');
+    btns.forEach((b) => b.addEventListener('click', () => {
+      btns.forEach((x) => x.classList.toggle('on', x === b));
+      pans.forEach((x) => x.classList.toggle('on', x.dataset.panel === b.dataset.tab));
+    }));
   }
 
   // ---------- Contacts ----------
