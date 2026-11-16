@@ -536,3 +536,39 @@ a.frame:hover { transform: translateY(-2px); box-shadow: 0 1px 2px rgba(26, 46, 
 .contact-text .icon { width: 1.15rem; height: 1.15rem; flex: none; opacity: 0.55; }
 .contact-text a { color: var(--navy); text-decoration: none; border-bottom: 1px solid rgba(26, 46, 74, 0.3); word-break: break-all; }
 .contact-text a:hover { border-bottom-color: var(--navy); }
+
+/* ---------- achievement tabs ---------- */
+.tabs { display: flex; flex-wrap: wrap; gap: 0.2rem 2rem; border-bottom: 1px solid var(--gray-mid); margin-bottom: 2.2rem; }
+.tab-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  color: var(--gray-text);
+  padding: 0.85rem 0;
+  transition: color 0.2s ease;
+}
+.tab-btn::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 2px;
+  background: var(--navy);
+  transform: scaleX(0);
+  transition: transform 0.25s ease;
+}
+.tab-btn:hover, .tab-btn.on { color: var(--navy); }
+.tab-btn.on::after { transform: scaleX(1); }
+.tab-count { font-size: 0.68rem; letter-spacing: 0; color: var(--gray-text); background: var(--tint); border-radius: 20px; padding: 0.1rem 0.55rem; }
+.tab-panel { display: none; }
+.tab-panel.on { display: block; }
