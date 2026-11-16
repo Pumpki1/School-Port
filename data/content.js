@@ -178,7 +178,7 @@ window.SITE = {
       description: "[PLACEHOLDER] A short description of what this course covers.",
       artifacts: [
         {
-          title: "[PLACEHOLDER] Artifact title",
+          title: "Finals NLP Project Artifact title",
           type: "pdf",
           file: "[PLACEHOLDER] files/your-file.pdf",
           description: "[PLACEHOLDER] What this artifact is about.",
