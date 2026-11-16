@@ -170,6 +170,54 @@ window.SITE = {
           goals: "Built confidence in public speaking and pitching technical ideas professionally."
         }
       ]
+    },
+        {
+      id: "cpe-c314",
+      code: "CPE C314",
+      title: "Artificial Intelligence 2",
+      description: "[PLACEHOLDER] A short description of what this course covers.",
+      artifacts: [
+        {
+          title: "[PLACEHOLDER] Artifact title",
+          type: "pdf",
+          file: "[PLACEHOLDER] files/your-file.pdf",
+          description: "[PLACEHOLDER] What this artifact is about.",
+          outcomes: "[PLACEHOLDER] How this artifact contributes to the CpE Student Outcomes.",
+          goals: "[PLACEHOLDER] How this artifact contributes to your personal goals."
+        }
+      ]
+    },
+    {
+      id: "cpe-c405",
+      code: "CPE C405",
+      title: "Emerging Technologies",
+      description: "[PLACEHOLDER] A short description of what this course covers.",
+      artifacts: [
+        {
+          title: "[PLACEHOLDER] Artifact title",
+          type: "pdf",
+          file: "[PLACEHOLDER] files/your-file.pdf",
+          description: "[PLACEHOLDER] What this artifact is about.",
+          outcomes: "[PLACEHOLDER] How this artifact contributes to the CpE Student Outcomes.",
+          goals: "[PLACEHOLDER] How this artifact contributes to your personal goals."
+        }
+      ]
+    },
+    {
+      id: "cpe-c409",
+      code: "CPE C409",
+      title: "Seminars and Fieldtrips",
+      description: "[PLACEHOLDER] A short description of what this course covers.",
+      artifacts: [
+        {
+          title: "[PLACEHOLDER] Artifact title",
+          type: "pdf",
+          file: "[PLACEHOLDER] files/your-file.pdf",
+          description: "[PLACEHOLDER] What this artifact is about.",
+          outcomes: "[PLACEHOLDER] How this artifact contributes to the CpE Student Outcomes.",
+          goals: "[PLACEHOLDER] How this artifact contributes to your personal goals."
+        }
+      ]
     }
   ],
 
