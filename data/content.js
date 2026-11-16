@@ -171,19 +171,29 @@ window.SITE = {
         }
       ]
     },
-        {
+    {
       id: "cpe-c314",
       code: "CPE C314",
       title: "Artificial Intelligence 2",
-      description: "[PLACEHOLDER] A short description of what this course covers.",
+      description: "A natural language processing course that ended with a machine translation project: a tourism translator between English and Cebuano, Hiligaynon, and Waray, built with a GRU model and a fine tuned NLLB-200 model.",
       artifacts: [
         {
-          title: "Finals NLP Project Artifact title",
+          title: "Final NLP Project Documentation",
           type: "pdf",
-          file: "[PLACEHOLDER] files/your-file.pdf",
-          description: "[PLACEHOLDER] What this artifact is about.",
-          outcomes: "[PLACEHOLDER] How this artifact contributes to the CpE Student Outcomes.",
-          goals: "[PLACEHOLDER] How this artifact contributes to your personal goals."
+          file: "files/ai/nlp-project-documentation.pdf",
+          cta: "View File",
+          description: "A research paper on the Tourism Translator, a bidirectional machine translation system for English, Cebuano, Hiligaynon, and Waray. It covers the dataset, the three models compared, the results, and the limitations of the study.",
+          outcomes: "Demonstrates ability to design, run, and report an experiment, comparing models with standard metrics such as chrF and sacreBLEU.",
+          goals: "Strengthened my skills in natural language processing, technical writing, and reporting results honestly, including their limitations."
+        },
+        {
+          title: "Project Demo",
+          type: "video",
+          file: "https://drive.google.com/file/d/1kW0q0zXVzfQVg_VDK42-tmRIKVQb-kxB/preview",
+          cta: "Watch Demo",
+          description: "A video demonstration of the Tourism Translator chatbot, which translates tourism sentences between English and Cebuano, Hiligaynon, and Waray in the browser.",
+          outcomes: "Showcases ability to turn a trained model into a working application that people can use.",
+          goals: "Gained experience in serving an AI model through a simple web interface and presenting it clearly."
         }
       ]
     },
@@ -191,15 +201,25 @@ window.SITE = {
       id: "cpe-c405",
       code: "CPE C405",
       title: "Emerging Technologies",
-      description: "[PLACEHOLDER] A short description of what this course covers.",
+      description: "A course on emerging technologies, with work centered on cloud computing, including a cloud migration proposal for a real dental clinic and a final class project.",
       artifacts: [
         {
-          title: "[PLACEHOLDER] Artifact title",
+          title: "Prelim Project: Smile Republic Cloud Migration",
           type: "pdf",
-          file: "[PLACEHOLDER] files/your-file.pdf",
-          description: "[PLACEHOLDER] What this artifact is about.",
-          outcomes: "[PLACEHOLDER] How this artifact contributes to the CpE Student Outcomes.",
-          goals: "[PLACEHOLDER] How this artifact contributes to your personal goals."
+          file: "files/emerging/prelim-smile-republic.pdf",
+          cta: "View File",
+          description: "A proposal for moving Smile Republic Dental Clinic in Pateros from paper charts and an offline spreadsheet to a web based clinic management system on AWS. It includes a needs assessment, Data Privacy Act requirements, a deployment model, and a cost estimate from the AWS Pricing Calculator.",
+          outcomes: "Demonstrates ability to assess a client's needs and design a secure, cost estimated engineering solution that follows legal requirements.",
+          goals: "Built my understanding of cloud services and how to balance cost, security, and compliance when recommending a technology."
+        },
+        {
+          title: "Final Project",
+          type: "link",
+          file: "https://drive.google.com/drive/folders/1dgvgxSsnhApW6jgeIleSu5HXrkJDAmip?usp=drive_link",
+          cta: "Open Folder",
+          description: "The final project for the course, with its files and deliverables compiled in a shared Google Drive folder.",
+          outcomes: "Demonstrates ability to apply emerging technology concepts in a complete and documented project.",
+          goals: "Strengthened my ability to plan, build, and organize a project from start to finish."
         }
       ]
     },
@@ -207,15 +227,61 @@ window.SITE = {
       id: "cpe-c409",
       code: "CPE C409",
       title: "Seminars and Fieldtrips",
-      description: "[PLACEHOLDER] A short description of what this course covers.",
+      description: "Seminars attended, Wadhwani Foundation role plays, and industry field trips to Schneider Electric and Hytech that connect classroom learning to the engineering profession.",
       artifacts: [
         {
-          title: "[PLACEHOLDER] Artifact title",
-          type: "pdf",
-          file: "[PLACEHOLDER] files/your-file.pdf",
-          description: "[PLACEHOLDER] What this artifact is about.",
-          outcomes: "[PLACEHOLDER] How this artifact contributes to the CpE Student Outcomes.",
-          goals: "[PLACEHOLDER] How this artifact contributes to your personal goals."
+          title: "Seminars",
+          type: "link",
+          file: "https://drive.google.com/drive/folders/1rKEu3H1m7BVdIoHKeeW8iOl-vNsElFwP?usp=drive_link",
+          cta: "Open Folder",
+          description: "A shared folder with the records of the seminars I attended during the course.",
+          outcomes: "Shows commitment to lifelong learning and awareness of current trends in the engineering field.",
+          goals: "Widened my view of the industry and helped me see where my interests in AI and cloud technology can lead."
+        },
+        {
+          title: "Wadhwani Role Plays",
+          type: "link",
+          file: "https://drive.google.com/drive/folders/1DlkosWmUrUV5tUvPNdVlnPv1sG38mGsO?usp=drive_link",
+          cta: "Open Folder",
+          description: "A shared folder with my Wadhwani Foundation role play activities, practicing professional communication in realistic workplace situations.",
+          outcomes: "Demonstrates professional communication and teamwork in realistic workplace scenarios.",
+          goals: "Improved my confidence in speaking and in handling professional situations."
+        },
+        {
+          title: "Schneider Electric Field Trip: Group Photo",
+          type: "img",
+          file: "assets/img/achievements/schneider-qcxweek-group.jpg",
+          cta: "View Photo",
+          description: "Our Computer Engineering class at the Schneider Electric office in Cavite, taken during the company's QCXWeek 2026 event, in front of a display about its supply chain.",
+          outcomes: "Shows exposure to how a global energy management company runs its operations, quality, and supply chain.",
+          goals: "Gave me a clearer picture of the industry I am preparing to enter and how engineering work connects to quality and customer needs."
+        },
+        {
+          title: "Schneider Electric Field Trip: Welcome Lounge",
+          type: "img",
+          file: "assets/img/achievements/schneider-lobby-group.jpg",
+          cta: "View Photo",
+          description: "Our class in the Schneider Electric reception lounge in Cavite on October 8, 2026, where the welcome screen showed the Jose Rizal University seal.",
+          outcomes: "Reflects participation in an industry visit hosted by a leading company in electrical and automation technology.",
+          goals: "Built my professional awareness and showed me what a working engineering environment looks like."
+        },
+        {
+          title: "Hytech Field Trip: Electrical Control Training Modules",
+          type: "img",
+          file: "assets/img/achievements/hytech-control-modules.jpg",
+          cta: "View Photo",
+          description: "A wall of electrical control training modules at Hytech, covering motor control, pressure water supply, DC motor speed control, a vending machine simulation, and more, beside a bench power supply console.",
+          outcomes: "Shows exposure to hands on trainers used to teach industrial control and electrical circuits.",
+          goals: "Helped me connect the control and circuit theory from class to real equipment."
+        },
+        {
+          title: "Hytech Field Trip: Industry 4.0 Automation Lab",
+          type: "img",
+          file: "assets/img/achievements/hytech-industry-4-lab.jpg",
+          cta: "View Photo",
+          description: "An Industry 4.0 training area at Hytech with PLC trainers, touchscreen control stations for testing, processing, handling, and sorting, and a model factory with a quality control station.",
+          outcomes: "Demonstrates exposure to smart automation, PLC based control, and Industry 4.0 concepts.",
+          goals: "Widened my interest in automation and in how AI and hardware work together in smart factories."
         }
       ]
     }
@@ -226,25 +292,28 @@ window.SITE = {
   achievements: [
     // ----- Certifications -----
     { category: "certification", title: "Relational Database Certification", issuer: "freeCodeCamp", date: "November 16, 2025", type: "img", file: "assets/img/achievements/fcc-relational-database.jpg" },
+    { category: "certification", title: "Overview of AI", issuer: "Huawei ICT Academy", date: "March 1, 2026", type: "img", file: "assets/img/achievements/huawei-overview-of-ai.jpg" },
     { category: "certification", title: "AWS ML Certificate", issuer: "AWS Academy", date: "April 29, 2026", type: "pdf", file: "files/certifications/aws-ml-certificate.pdf", thumb: "assets/img/thumbs/aws-ml-certificate.jpg" },
     { category: "certification", title: "Wadhwani Foundation Certificate", issuer: "Wadhwani Foundation", date: "April 30, 2026", type: "pdf", file: "files/certifications/wadhwani-certificate.pdf", thumb: "assets/img/thumbs/wadhwani-certificate.jpg" },
-    { category: "certification", title: "Employability Skills: JobReady with AI v1", issuer: "Wadhwani Foundation", date: "November 2026", type: "pdf", file: "[PLACEHOLDER] files/certifications/jobready.pdf" },
-    { category: "certification", title: "AWS Academy Graduate Cloud Foundations Training Badge", issuer: "Amazon Web Services", date: "October 2026", type: "pdf", file: "[PLACEHOLDER] files/certifications/aws-cloud-foundations.pdf" },
-    { category: "certification", title: "AWS Academy Graduate Machine Learning for Natural Language Processing Training Badge", issuer: "Amazon Web Services", date: "November 2026", type: "pdf", file: "[PLACEHOLDER] files/certifications/aws-ml-nlp.pdf" },
-    { category: "certification", title: "AWS Certified Cloud Practitioner", issuer: "Amazon Web Services", date: "October 2026, expires October 2029", type: "pdf", file: "[PLACEHOLDER] files/certifications/aws-cloud-practitioner.pdf" },
-    { category: "certification", title: "Overview of AI", issuer: "Huawei", date: "March 2026", type: "pdf", file: "[PLACEHOLDER] files/certifications/huawei-overview-of-ai.pdf" },
-    { category: "certification", title: "Introduction to AI Literacy and Responsible Use", issuer: "Mapúa University", date: "September 2026", type: "pdf", file: "[PLACEHOLDER] files/certifications/mapua-ai-literacy.pdf" },
+    { category: "certification", title: "Introduction to AI Literacy and Responsible Use", issuer: "Mapúa University and CHED", date: "September 14, 2026", type: "img", file: "assets/img/achievements/mapua-ai-literacy.jpg" },
+    { category: "certification", title: "AWS Certified Cloud Practitioner", issuer: "Amazon Web Services", date: "October 28, 2026, expires October 28, 2029", type: "pdf", file: "files/certifications/aws-cloud-practitioner.pdf" },
+    { category: "certification", title: "AWS Academy Graduate Cloud Foundations Training Badge", issuer: "AWS Academy", date: "October 30, 2026", type: "pdf", file: "files/certifications/aws-cloud-foundations.pdf" },
+    { category: "certification", title: "AWS Academy Graduate Machine Learning for Natural Language Processing Training Badge", issuer: "AWS Academy", date: "November 2, 2026", type: "pdf", file: "files/certifications/aws-ml-nlp.pdf" },
+    { category: "certification", title: "Employability Skills: JobReady with AI v1, Advanced Level", issuer: "Wadhwani Foundation", date: "November 12, 2026", type: "pdf", file: "files/certifications/jobready.pdf" },
+    { category: "certification", title: "AWS Academy Graduate Cloud Web Application Builder Training Badge", issuer: "AWS Academy", date: "November 15, 2026", type: "pdf", file: "files/certifications/aws-web-app-builder.pdf" },
 
     // ----- Awards -----
+    { category: "award", title: "Top 9 Student, Certificate of Recognition", issuer: "Jose Rizal University, CPE Department", date: "First Semester, School Year 2023 to 2024", type: "img", file: "assets/img/achievements/top-9-student.jpg" },
     { category: "award", title: "ICPEP CPE Python Programming Competition", issuer: "CSE Week 2025, Jose Rizal University", date: "March 19, 2025, 2nd Runner Up", type: "img", file: "assets/img/achievements/python-competition.jpg" },
     { category: "award", title: "Dean's List", issuer: "Jose Rizal University", date: "First Semester, School Year 2025 to 2026", type: "pdf", file: "files/certifications/deans-list.pdf", thumb: "assets/img/thumbs/deans-list.jpg" },
-    { category: "award", title: "Dean's List", issuer: "Jose Rizal University", date: "[PLACEHOLDER] Semester and school year", type: "pdf", file: "[PLACEHOLDER] files/certifications/deans-list-2.pdf" },
-    { category: "award", title: "[PLACEHOLDER] Award title", issuer: "[PLACEHOLDER] Issuer", date: "[PLACEHOLDER] Date", type: "img", file: "[PLACEHOLDER] assets/img/achievements/your-image.jpg" },
+    { category: "award", title: "Dean's List", issuer: "Jose Rizal University", date: "Second Semester, School Year 2025 to 2026", type: "img", file: "assets/img/achievements/deans-list-2.png" },
 
     // ----- Seminars and Fieldtrips -----
-    { category: "seminar", title: "[PLACEHOLDER] Seminar title", issuer: "[PLACEHOLDER] Organizer", date: "[PLACEHOLDER] Date", type: "img", file: "[PLACEHOLDER] assets/img/achievements/your-image.jpg" },
-    { category: "seminar", title: "[PLACEHOLDER] Seminar title", issuer: "[PLACEHOLDER] Organizer", date: "[PLACEHOLDER] Date", type: "pdf", file: "[PLACEHOLDER] files/your-file.pdf" },
-    { category: "seminar", title: "[PLACEHOLDER] Fieldtrip title", issuer: "[PLACEHOLDER] Company or place visited", date: "[PLACEHOLDER] Date", type: "img", file: "[PLACEHOLDER] assets/img/achievements/your-image.jpg" }
+    { category: "seminar", title: "Balancing Act: Mental Health Matters and Time Management Strategies for College Success", issuer: "ICpEP.SE, Jose Rizal University Chapter", date: "November 16, 2023", type: "img", file: "assets/img/achievements/mental-health-seminar.png" },
+    { category: "seminar", title: "Academic Learning Enhancement Program (ALEP)", issuer: "Electronics Engineering League", date: "February 21, 2024", type: "img", file: "assets/img/achievements/alep-participation.png" },
+    { category: "seminar", title: "Generative AI Workshop", issuer: "CSE Week 2025, Jose Rizal University", date: "March 24, 2025", type: "img", file: "assets/img/achievements/generative-ai-workshop.jpg" },
+    { category: "seminar", title: "Schneider Electric Field Trip", issuer: "Schneider Electric, Cavite", date: "October 8, 2026", type: "img", file: "assets/img/achievements/schneider-lobby-group.jpg" },
+    { category: "seminar", title: "Hytech Field Trip", issuer: "Hytech", date: "2026", type: "img", file: "assets/img/achievements/hytech-industry-4-lab.jpg" }
   ],
 
   // ---------- Contact page ----------
