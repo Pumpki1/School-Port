@@ -326,7 +326,7 @@
       item('School Email', 'mailto:' + P.email, P.email, 'mail') +
       (P.email2 ? item('Personal Email', 'mailto:' + P.email2, P.email2, 'mail') : '') +
       item('Facebook', P.facebook, 'facebook.com/khen.m.ilao', 'link') +
-      item('LinkedIn', P.linkedin, 'linkedin.com/in/khen-ilao-534572423', 'link') +
+      item('LinkedIn', P.linkedin, 'https://www.linkedin.com/in/khen-mhar-ilao-534572423/', 'link') +
       item('GitHub', P.github, 'github.com/Pumpki1', 'link');
 
     app.innerHTML =
