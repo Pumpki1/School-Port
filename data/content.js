@@ -222,12 +222,29 @@ window.SITE = {
   ],
 
   // ---------- Achievements ----------
+  //  category: "certification", "award", or "seminar"
   achievements: [
-    { title: "Relational Database Certification", issuer: "freeCodeCamp", date: "November 16, 2025", type: "img", file: "assets/img/achievements/fcc-relational-database.jpg" },
-    { title: "AWS ML Certificate", issuer: "AWS Academy", date: "April 29, 2026", type: "pdf", file: "files/certifications/aws-ml-certificate.pdf", thumb: "assets/img/thumbs/aws-ml-certificate.jpg" },
-    { title: "Wadhwani Foundation Certificate", issuer: "Wadhwani Foundation", date: "April 30, 2026", type: "pdf", file: "files/certifications/wadhwani-certificate.pdf", thumb: "assets/img/thumbs/wadhwani-certificate.jpg" },
-    { title: "ICPEP CPE Python Programming Competition", issuer: "CSE Week 2025, Jose Rizal University", date: "March 19, 2025, 2nd Runner Up", type: "img", file: "assets/img/achievements/python-competition.jpg" },
-    { title: "Dean's List", issuer: "Jose Rizal University", date: "First Semester, School Year 2025 to 2026", type: "pdf", file: "files/certifications/deans-list.pdf", thumb: "assets/img/thumbs/deans-list.jpg" }
+    // ----- Certifications -----
+    { category: "certification", title: "Relational Database Certification", issuer: "freeCodeCamp", date: "November 16, 2025", type: "img", file: "assets/img/achievements/fcc-relational-database.jpg" },
+    { category: "certification", title: "AWS ML Certificate", issuer: "AWS Academy", date: "April 29, 2026", type: "pdf", file: "files/certifications/aws-ml-certificate.pdf", thumb: "assets/img/thumbs/aws-ml-certificate.jpg" },
+    { category: "certification", title: "Wadhwani Foundation Certificate", issuer: "Wadhwani Foundation", date: "April 30, 2026", type: "pdf", file: "files/certifications/wadhwani-certificate.pdf", thumb: "assets/img/thumbs/wadhwani-certificate.jpg" },
+    { category: "certification", title: "Employability Skills: JobReady with AI v1", issuer: "Wadhwani Foundation", date: "November 2026", type: "pdf", file: "[PLACEHOLDER] files/certifications/jobready.pdf" },
+    { category: "certification", title: "AWS Academy Graduate Cloud Foundations Training Badge", issuer: "Amazon Web Services", date: "October 2026", type: "pdf", file: "[PLACEHOLDER] files/certifications/aws-cloud-foundations.pdf" },
+    { category: "certification", title: "AWS Academy Graduate Machine Learning for Natural Language Processing Training Badge", issuer: "Amazon Web Services", date: "November 2026", type: "pdf", file: "[PLACEHOLDER] files/certifications/aws-ml-nlp.pdf" },
+    { category: "certification", title: "AWS Certified Cloud Practitioner", issuer: "Amazon Web Services", date: "October 2026, expires October 2029", type: "pdf", file: "[PLACEHOLDER] files/certifications/aws-cloud-practitioner.pdf" },
+    { category: "certification", title: "Overview of AI", issuer: "Huawei", date: "March 2026", type: "pdf", file: "[PLACEHOLDER] files/certifications/huawei-overview-of-ai.pdf" },
+    { category: "certification", title: "Introduction to AI Literacy and Responsible Use", issuer: "Mapúa University", date: "September 2026", type: "pdf", file: "[PLACEHOLDER] files/certifications/mapua-ai-literacy.pdf" },
+
+    // ----- Awards -----
+    { category: "award", title: "ICPEP CPE Python Programming Competition", issuer: "CSE Week 2025, Jose Rizal University", date: "March 19, 2025, 2nd Runner Up", type: "img", file: "assets/img/achievements/python-competition.jpg" },
+    { category: "award", title: "Dean's List", issuer: "Jose Rizal University", date: "First Semester, School Year 2025 to 2026", type: "pdf", file: "files/certifications/deans-list.pdf", thumb: "assets/img/thumbs/deans-list.jpg" },
+    { category: "award", title: "Dean's List", issuer: "Jose Rizal University", date: "[PLACEHOLDER] Semester and school year", type: "pdf", file: "[PLACEHOLDER] files/certifications/deans-list-2.pdf" },
+    { category: "award", title: "[PLACEHOLDER] Award title", issuer: "[PLACEHOLDER] Issuer", date: "[PLACEHOLDER] Date", type: "img", file: "[PLACEHOLDER] assets/img/achievements/your-image.jpg" },
+
+    // ----- Seminars and Fieldtrips -----
+    { category: "seminar", title: "[PLACEHOLDER] Seminar title", issuer: "[PLACEHOLDER] Organizer", date: "[PLACEHOLDER] Date", type: "img", file: "[PLACEHOLDER] assets/img/achievements/your-image.jpg" },
+    { category: "seminar", title: "[PLACEHOLDER] Seminar title", issuer: "[PLACEHOLDER] Organizer", date: "[PLACEHOLDER] Date", type: "pdf", file: "[PLACEHOLDER] files/your-file.pdf" },
+    { category: "seminar", title: "[PLACEHOLDER] Fieldtrip title", issuer: "[PLACEHOLDER] Company or place visited", date: "[PLACEHOLDER] Date", type: "img", file: "[PLACEHOLDER] assets/img/achievements/your-image.jpg" }
   ],
 
   // ---------- Contact page ----------
